@@ -1,10 +1,11 @@
+mkdir -p train
 rm -rf train/*
 
+#Update the value of fontlist according to training fonts name
+#Update the value of lang according to training language
 sh tesstrain.sh \
   --fonts_dir fonts\
-  #Update the value of fontlist according to training fonts name
   --fontlist 'Impact Condensed' \
-  #Update the value of lang according to training language
   --lang eng  \
   --linedata_only   \
   --langdata_dir langdata_lstm \
@@ -13,6 +14,7 @@ sh tesstrain.sh \
   --maxpages 10\
   --output_dir train 
   
+  mkdir -p output
   rm -rf output/*
   
   #Update eng.traineddata and eng.lstm according to training language to lang.traineddata and lang.lstm
