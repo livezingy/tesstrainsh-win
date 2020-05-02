@@ -23,7 +23,7 @@ Install the Git for Windows,and add the path where Git / bin is located to the P
 
 4. Copy lstm.train to the path tesstrainsh-win/tessdata/configs. The file is under the tesseract installation path.(e.g., C: / Program Files/tesseract/tessdata/configs). I have prepared the file in tesstrainsh-win. But my Tesseract version is 4.1, if your Tesseract version is different,it is recommended that the file version also be consistent with your Tesseract version. Find the file from the tesseract installation path and copy them to tesstrainsh-win / tessdata / configs to overwrite the existing files.
 
-5 The tesstrain.sh, tesstrain_utils.sh and language-specific.sh under the tesstrainsh-win project are copied from the Tesseract4.1 source code (Tesseract / src / training). If you are using other versions of training tools, it is recommended that these three file versions also be consistent. Find these three files in the source code path and copy to the path tesstrainsh-win to overwrite the existing files.
+5. The tesstrain.sh, tesstrain_utils.sh and language-specific.sh under the tesstrainsh-win project are copied from the Tesseract4.1 source code (Tesseract / src / training). If you are using other versions of training tools, it is recommended that these three file versions also be consistent. Find these three files in the source code path and copy to the path tesstrainsh-win to overwrite the existing files.
 
 6. Run the command prompt as an administrator, Go to the tesstrainsh-win directory, e. g.:
 ```
