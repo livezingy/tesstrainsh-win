@@ -77,6 +77,8 @@ lstmeval \
 # More Information About Train Tesseract LSTM
 More information about Train Tesseract LSTM could refer to:
 
+[Train Tesseract LSTM methods Comparison](https://livezingy.com/train-tesseract-lstm-methods-comparison/)
+
 [Train Tesseract LSTM with make on Windows](https://livezingy.com/train-tesseract-lstm-with-make-on-windows/)
 
 [How the makefile in tesstrain-win work](https://livezingy.com/how-the-makefile-in-tesstrain-win-work/)
